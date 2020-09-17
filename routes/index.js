@@ -10,7 +10,7 @@ const cors = require("cors");
 
 
 router.use(cors({
-  origin : "*"
+  origin : "https://zen-demo-fe.netlify.app"
 }))
 
 /* GET home page. */
